@@ -116,17 +116,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "https://wa.me/+917895313539",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: `${import.meta.env.BASE_URL}assets/socials/whatsApp.svg`,
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/shashank-verma7",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: `${import.meta.env.BASE_URL}assets/socials/linkedIn.svg`,
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/shashank_verma7",
-    icon: "/assets/socials/instagram.svg",
+    icon: `${import.meta.env.BASE_URL}assets/socials/instagram.svg`,
   },
 ];
 
